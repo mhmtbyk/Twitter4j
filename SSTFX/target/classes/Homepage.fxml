@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.arpanet.STT.controller.EntryPointViewController">
+   <children>
+      <Label fx:id="lblHosgeldiniz" graphicTextGap="20.0" layoutX="56.0" layoutY="72.0" prefHeight="57.0" prefWidth="460.0" text="HOŞGELDİNİZ">
+         <font>
+            <Font name="System Bold" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="lblIslemSec" layoutX="56.0" layoutY="129.0" prefHeight="37.0" prefWidth="394.0" text="Lütfen gerçekleştirmek istediğiniz işlemi seçiniz.">
+         <font>
+            <Font size="17.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>
